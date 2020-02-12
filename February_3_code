@@ -1,0 +1,21 @@
+#set meal_bill to 30 dollars and 51 cents
+meal_bill = 30.51
+
+# calculate 20 percent tip
+tip = meal_bill * 0.2
+
+# print out total
+total = meal_bill + tip
+print("On a bill of :", "\n", meal_bill, "Your tip is: ", tip, "Your total bill is:  ", total)
+
+
+# Ask the user how many credit hours she has
+hours = int(input("how many hours have you earned"))
+
+# Ask for the total number of quality points
+quality = float(input("how many quality points do you have"))
+
+#calculate gpa
+gpa = quality/hours
+
+print("Your gpa is: ", gpa)
