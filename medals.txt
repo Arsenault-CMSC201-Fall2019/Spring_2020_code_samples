@@ -1,0 +1,10 @@
+Rank    Country         Gold    Silver  Bronze
+1       USA            14         11       4
+2       Jamaica         3           5       4
+3       Kenya           5           2       4
+4       PRC             3           3       3
+5       Ethiopia        2           5       1
+6       Russia          2           3       1
+6       Germany         2           0       4
+6       Poland          1           2       3
+9       Great_Britain   2           3       0
