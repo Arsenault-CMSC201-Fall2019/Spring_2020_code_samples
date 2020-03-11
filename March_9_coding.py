@@ -9,11 +9,12 @@ if __name__ == "__main__":
     mos = 3
     days = 22
     length_of_time = calculate_days(yrs, mos, days)
+    length_of_time = calculate_days(23,3,22)
     print("That is ", length_of_time, " days")
 
 
 def subtract(x, y):
-	print(x,"-",y,"=",str(x-y))
+	print(x,"-",y,"=",x-y)
 
 if __name__ == "__main__":
     x = 3
@@ -32,7 +33,7 @@ def get_valid_input():
     return(x)
 
 if __name__ == "__main__":
-    num = get_valid_input();
+    num = get_valid_input()
     for i in range(10):
         power = num**i
-        print ("{:3} to the power of {:3} is {:5}".format(num, i, power))
+        print ("{:3} to the power of {:3} is {:15}".format(num, i, power))
