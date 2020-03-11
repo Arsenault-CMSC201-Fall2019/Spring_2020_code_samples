@@ -1,0 +1,22 @@
+PI = 3.14159
+
+def factorial(num):
+    product = 1
+
+    for i in range(1, num+1):
+        product *= i
+    return product, i
+
+def sum(num):
+    t = 10
+    print('product = ', product)
+    return t
+
+if __name__ == '__main__':
+
+    number = 10
+    y = sum(number)
+    x, j = factorial(number)
+    print(x)
+
+
